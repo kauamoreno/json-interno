@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #e0e0e0;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.tela{
+    margin-top: 20px;
+}
+input, button{
+    padding: 5px;
+    border: 1px solid black;
+}
+button{
+    border-radius: 5px;
+}
+#dados{
+    display: none;
+}
+.titulo{
+    text-align: center;
+}

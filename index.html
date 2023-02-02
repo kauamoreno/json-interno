@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumo de API interna</title>
+</head>
+<body>
+
+    <main>
+        <div class="tela">
+
+            <div class="titulo">
+                <h1>Pesquisa de usuário</h1>
+            </div>
+            <input type="text" placeholder="Digite o CPF" id="cpf">
+            <button id="pesquisa" onclick="pesquisar()">Pesquisar</button>
+
+            <div id="dados">
+                <div class="titulo">
+                    <h3>Dados do Usuario</h3>
+                </div>
+                <div class="txt">
+                    <p id="nome">CPF: </p>
+                    <p id="idade">Idade: </p>
+                    <p id="profissao">Profissão: </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
