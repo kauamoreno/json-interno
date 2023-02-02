@@ -10,7 +10,7 @@ input.addEventListener("keydown", (event) => {
 function pesquisar(){
 
     //MINHA BASE DE DADOS ARRAY
-    const pessoas = '{"pessoa1":{"nome": "101", "idade": "36", "profissao": "Carpinteiro"}, "pessoa2":{"nome": "102", "idade": "40", "profissao": "Programador"},                  "pessoa3":{"nome": "103", "idade": "12", "profissao": "Estudante"}, "pessoa4":{"nome": "104", "idade": "45", "profissao": "Geógrafo"},                                           "pessoa5":{"nome": "105", "idade": "90", "profissao": "Aposentado"}, "pessoa6":{"nome": "106", "idade": "51", "profissao": "Cozinheiro"}}'
+    const pessoas = '{"pessoa1":{"nome": "101", "idade": "36", "profissao": "Carpinteiro"}, "pessoa2":{"nome": "102", "idade": "47", "profissao": "Programador"},                  "pessoa3":{"nome": "103", "idade": "12", "profissao": "Estudante"}, "pessoa4":{"nome": "104", "idade": "45", "profissao": "Geólogo"},                                           "pessoa5":{"nome": "105", "idade": "90", "profissao": "Aposentado"}, "pessoa6":{"nome": "106", "idade": "51", "profissao": "Cozinheiro"}}'
 
     //CONVERSÃO DA MINHA BASE DE DADOS ARRAY PARA JSON
     const data = JSON.parse(pessoas)
