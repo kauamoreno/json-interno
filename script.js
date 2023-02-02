@@ -68,8 +68,8 @@ function pesquisar(){
         default:
             Swal.fire({
                 icon: 'error',
-                title: "Usuario não reconhecido",
-                text: 'Tente logar com um usuario existente!',
+                title: "Usuário não reconhecido",
+                text: 'Tente logar com um usuário existente!',
                 footer: '<a href="">Why do I have this issue?</a>'
             })
     }
