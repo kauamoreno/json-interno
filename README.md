@@ -14,4 +14,4 @@ Cada CPF é um cadastro de uma pessoa com idade e profisão.
 
 <br><br>
 
-![projeto](https://user-images.githubusercontent.com/119445003/216347421-a2822c24-74bc-4eb8-96b3-3c8b7640c5cc.png)
+![img](https://user-images.githubusercontent.com/119445003/216992337-a53839a5-fce1-47ac-b6f9-0014947773fe.png)
