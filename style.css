@@ -1,41 +1,45 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #e0e0e0;
 
 }
-main{
+main {
     display: flex;
     justify-content: center;
 }
-.tela{
+.tela {
     margin-top: 20px;
 }
-input, button{
+input,
+button {
     padding: 5px;
     border: 1px solid black;
 }
-button{
+button {
     border-radius: 5px;
-    background-color: rgba(251, 255, 12, 0.4);
-}
-button:hover{
-    transition: 300ms;
     background-color: rgba(251, 255, 12, 0.8);
 }
-#dados{
-    display: none;
-    /* background-color: yellow; */
-    background-color: rgba(251, 255, 12, 0.7);
+button:hover {
+    transition: 300ms;
+    background-color: rgba(251, 255, 12, 0.4);
 }
-.dados-interior{
+#dados {
+    display: none;
+    background-color: rgba(251, 255, 12, 0.7);
+
+    -webkit-box-shadow: 9px 11px 18px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 11px 18px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 11px 18px -4px rgba(0, 0, 0, 0.75);
+}
+.dados-interior {
     padding: 5px 5px 5px 5px;
     margin-top: 100px;
 }
-.titulo{
+.titulo {
     text-align: center;
 }
-.areaInput{
+.areaInput {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;

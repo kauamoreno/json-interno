@@ -70,7 +70,6 @@ function pesquisar(){
                 icon: 'error',
                 title: "Usuário não reconhecido",
                 text: 'Tente logar com um usuário existente!',
-                footer: '<a href="">Why do I have this issue?</a>'
             })
     }
 }
