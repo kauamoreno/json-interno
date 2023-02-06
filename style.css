@@ -13,7 +13,7 @@ main {
 }
 input,
 button {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black;
 }
 button {
@@ -21,8 +21,8 @@ button {
     background-color: rgba(251, 255, 12, 0.8);
 }
 button:hover {
-    transition: 300ms;
-    background-color: rgba(251, 255, 12, 0.4);
+    transition: 50ms;
+    background-color: rgba(251, 255, 12, 0.5);
 }
 #dados {
     display: none;
